@@ -32,7 +32,10 @@ public:
 
     void buildTree(TreeNode* &tree){
         string data;
-        cin >> data;
+        if(!(cin >> data)) {
+            tree = nullptr;
+            return;
+        }
         if(data == "NULL" || data == "null"){
             tree = nullptr;
         }
