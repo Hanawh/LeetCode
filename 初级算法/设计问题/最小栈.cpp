@@ -46,5 +46,5 @@ int main(){
    obj->push(-2);
    obj->push(0);
    obj->push(-3);
-   cout << obj->getMin() << endl;;   
+   cout << obj->getMin() << endl;
 }
