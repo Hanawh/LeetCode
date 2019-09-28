@@ -1,0 +1,15 @@
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int, int> count;
+        for (auto &num: nums)
+            count[num]++;
+        multimap<int, int, std::greater<int>> freq;
+        for (auto &f : count)
+            freq.insert(make_pair(f.second, f.first));
+        vector<int> res;
+        for (auto it = freq.begin(); it != freq.end() && k; ++it,--k)
+            res.push_back(it->second);
+        return res;
+    }
+};
