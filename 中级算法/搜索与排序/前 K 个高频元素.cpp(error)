@@ -4,7 +4,7 @@ public:
         unordered_map<int, int> count;
         for (auto &num: nums)
             count[num]++;
-        multimap<int, int, std::greater<int>> freq;
+        multimap<int, int, std::greater<int>> freq; //map不允许元素重复 multimap允许元素重复 根据键值进行排序
         for (auto &f : count)
             freq.insert(make_pair(f.second, f.first));
         vector<int> res;
