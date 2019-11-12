@@ -36,7 +36,7 @@ public:
             if(k==-1||s[j]==s[k]){
                 ++k;//前缀下一个 即匹配不成功要跳转的索引
                 ++j;
-                next[j] = k;
+                next[j] = k; //less time 
             }
             else{
                 k=next[k];//自我匹配 0～k相当于模式串
