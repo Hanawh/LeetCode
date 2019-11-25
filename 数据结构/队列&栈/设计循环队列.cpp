@@ -1,3 +1,5 @@
+#include<iostream>
+using namespace std;
 class MyCircularQueue {
 private:
     vector<int> data;
