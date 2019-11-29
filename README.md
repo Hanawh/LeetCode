@@ -1,5 +1,5 @@
 # LeetCode
-Work Harder，Learn More
+Work Harder and Learn More
 
 |number|question|level|c++|
 |---|---|---|---|
