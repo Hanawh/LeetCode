@@ -49,5 +49,6 @@ Work Harder and Learn More
 |739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97%26%E6%A0%88/%E6%AF%8F%E6%97%A5%E6%B8%A9%E5%BA%A6.cpp)|
 |747|[Largest Number At Least Twice of Others](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/%E8%87%B3%E5%B0%91%E6%98%AF%E5%85%B6%E4%BB%96%E6%95%B0%E5%AD%97%E4%B8%A4%E5%80%8D%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0.cpp)|
 |752|[Open the Lock](https://leetcode-cn.com/problems/open-the-lock/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97%26%E6%A0%88/%E6%89%93%E5%BC%80%E8%BD%AC%E7%9B%98%E9%94%81.cpp)|
+|876|[Middle of the Linked List](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.cpp)|
 
 
