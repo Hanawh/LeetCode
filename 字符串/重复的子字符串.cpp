@@ -1,21 +1,22 @@
-#include<iostream>
-#include<string>
-#include<vector>
-using namespace std;
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
         int len = s.size();
-		vector<int> next(len);
-		for(int i = 1; i < len; ++i){
-			int k = next[i-1]; //应该比较的对象
-			while(k and s[i] != s[k]){
-				k = next[k-1];
-			}
-			if(s[i] == s[k]) next[i] = k + 1;
-		}
-		int res = next[len-1];
-		if(len%(len-res) == 0) return true;
-		return false;
+        vector<int> next(len);
+        next[0] = -1;
+        int k = -1;//前缀
+        int j = 0;
+        while(j < len-1){
+            if(k == -1 or s[j] == s[k]){
+                k++;
+                j++;
+                next[j] = k;
+            }
+            else{
+                k = next[k];
+            }
+        }
+        if(s[j] == s[k] and len%(j-k) == 0) return true;
+        return false;
     }
 };
