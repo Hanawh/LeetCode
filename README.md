@@ -65,5 +65,6 @@ Work Harder and Learn More
 |752|[Open the Lock](https://leetcode-cn.com/problems/open-the-lock/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97%26%E6%A0%88/%E6%89%93%E5%BC%80%E8%BD%AC%E7%9B%98%E9%94%81.cpp)|
 |860|[Lemonade Change](https://leetcode-cn.com/problems/lemonade-change/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.cpp)|
 |876|[Middle of the Linked List](https://leetcode-cn.com/problems/middle-of-the-linked-list/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E9%93%BE%E8%A1%A8/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9.cpp)|
+|944|[Delete Columns to Make Sorted](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E5%88%A0%E5%88%97%E9%80%A0%E5%BA%8F.cpp)|
 
 
