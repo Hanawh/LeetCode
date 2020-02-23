@@ -5,6 +5,7 @@ Work Harder and Learn More
 |---|---|---|---|
 ||[]()|Easy|[c++]()|
 ||[]()|Medium|[c++]()|
+||[]()|Hard|[c++]()|
 |1|[Two Sum](https://leetcode-cn.com/problems/two-sum/submissions/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%93%88%E5%B8%8C%E8%A1%A8/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.cpp)|
 |2|[Add Two Numbers](https://leetcode-cn.com/problems/add-two-numbers/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.cpp)|
 |3|[Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/submissions/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E5%93%88%E5%B8%8C%E8%A1%A8/%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.cpp)|
@@ -43,6 +44,7 @@ Work Harder and Learn More
 |150|[Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97%26%E6%A0%88/%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.cpp)|
 |151|[Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/%E7%BF%BB%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.cpp)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC.cpp)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.cpp)|
 |155|[Min Stack](https://leetcode-cn.com/problems/min-stack/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%98%9F%E5%88%97%26%E6%A0%88/%E6%9C%80%E5%B0%8F%E6%A0%88.cpp)|
 |160|[Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.cpp)|
 |162|[Find Peak Element](https://leetcode-cn.com/problems/find-peak-element/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.cpp)|
