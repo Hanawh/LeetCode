@@ -1,0 +1,25 @@
+class Solution {
+public:
+    void merge(vector<int>& A, int m, vector<int>& B, int n) {
+        int pA = m-1;
+        int pB = n-1;
+        int temp = m+n-1;
+        while(pA>-1 or pB>-1){
+            if(pA == -1) A[temp--] = B[pB--];
+            
+            else if(pB == -1) A[temp--] = A[pA--];
+            
+            else if(B[pB]>A[pA]){
+                A[temp--] = B[pB--];
+            }
+
+            else if(B[pB]<A[pA]){
+                A[temp--] = A[pA--];
+            }
+
+            else if(B[pB] == A[pA]){
+                A[temp--] = B[pB--];
+            }
+        }
+    }
+};
