@@ -22,3 +22,29 @@ public:
         res.push_back(root->val);
     }
 };
+
+class Solution {
+public:
+    vector<int> postorderTraversal(TreeNode* root) {
+        vector<int> res;
+        if(root == nullptr) return res;
+        unordered_set<TreeNode*> hash;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(!st.empty()){
+            TreeNode* tmp = st.top();
+            st.pop();
+            if(hash.count(tmp)){//已经访问过一次
+                res.push_back(tmp->val);
+            }
+            else if(tmp->left==nullptr and tmp->right==nullptr) res.push_back(tmp->val);
+            else{
+                st.push(tmp);
+                if(tmp->right) st.push(tmp->right);
+                if(tmp->left) st.push(tmp->left);
+                hash.insert(tmp);
+            }
+        }
+        return res;
+    }
+};
