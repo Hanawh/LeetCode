@@ -147,6 +147,7 @@ Work Harder and Learn More
 |1049|[Last Stone Weight](https://leetcode-cn.com/problems/last-stone-weight/submissions/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F.cpp)|
 |1071|[Greatest Common Divisor of Strings](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E5%A4%A7%E5%85%AC%E5%9B%A0%E5%AD%90.cpp)|
 |1103|[Distribute Candies to People](https://leetcode-cn.com/problems/distribute-candies-to-people/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E7%BB%84/%E5%88%86%E7%B3%96%E6%9E%9C%20II.cpp)|
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E7%BB%84/%E6%8B%BC%E5%86%99%E5%8D%95%E8%AF%8D.cpp)|
 |1217|[Play with Chips](https://leetcode-cn.com/problems/play-with-chips/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E7%8E%A9%E7%AD%B9%E7%A0%81.cpp)|
 |1221|[Split a String in Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.cpp)|
 
