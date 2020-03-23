@@ -18,3 +18,18 @@ public:
         return slow;
     }
 };
+
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        if(head==nullptr) return head;
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while(fast){
+            if(fast->next) fast = fast->next->next;
+            else break;
+            slow = slow->next;
+        }
+        return slow;
+    }
+};
