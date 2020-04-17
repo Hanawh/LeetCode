@@ -29,6 +29,7 @@ Work Harder and Learn More
 |50|[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/Pow(x%2C%20n).cpp)|
 |53|[Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/)|Easy|[c++](https://github.com/Hanawh/LeetCode/tree/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)|
 |54|[Spiral Matrix](https://leetcode-cn.com/problems/spiral-matrix/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E7%BB%84%E5%92%8C%E5%AD%97%E7%AC%A6%E4%B8%B2/%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.cpp)|
+|55|[Jump Game](https://leetcode-cn.com/problems/jump-game/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.cpp)|
 |56|[Merge Intervals](https://leetcode-cn.com/problems/merge-intervals/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E7%BB%84/%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.cpp)|
 |58|[Length of Last Word](https://leetcode-cn.com/problems/length-of-last-word/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6.cpp)|
 |61|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E9%93%BE%E8%A1%A8/%E6%97%8B%E8%BD%AC%E9%93%BE%E8%A1%A8.cpp)|
