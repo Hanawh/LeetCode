@@ -26,7 +26,6 @@ public:
     void _preorder(Node* root){
         if(root==nullptr) return;
         res.push_back(root->val);
-        if(root->children.size()==0) return;
         int len = root->children.size();
         for(int i=0; i<len; ++i){
             _preorder(root->children[i]);
