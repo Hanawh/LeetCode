@@ -28,3 +28,14 @@ public:
         return pre;
     }
 };
+
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+       if(head == nullptr or head->next == nullptr) return head;
+        ListNode* tmp = reverseList(head->next); //返回以逆序的头指针
+        head->next->next = head;
+        head->next = nullptr;
+        return tmp;
+    }
+};
