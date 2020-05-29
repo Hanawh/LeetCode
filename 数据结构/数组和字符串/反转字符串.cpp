@@ -31,3 +31,24 @@ int main()
     for(auto i:s) cout<<i<<" ";
     return 0;
 };
+
+
+//递归
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+        int left = 0;
+        int right = s.size()-1;
+        helper(s, left, right);
+    }
+
+    void helper(vector<char>& s, int i, int j){
+        if(i < j){
+            int temp = s[i];
+            s[i] = s[j];
+            s[j] = temp;
+            helper(s, i+1, j-1);
+        }
+        else return;
+    }
+};
