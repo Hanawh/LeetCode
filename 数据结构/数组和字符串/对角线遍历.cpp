@@ -45,3 +45,40 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    vector<int> findDiagonalOrder(vector<vector<int> >& matrix) {
+        int row = matrix.size();
+        if (row == 0) return {};
+        int col = matrix[0].size();
+        vector<int> res;
+        //每一躺i与j的和是递增的
+        int sum = 0; 
+        while(sum < row + col){
+            //由下到上
+            //起点确定: 
+            int x1 = (sum < row) ? sum : row - 1;
+            int y1 = sum - x1;
+            while(x1 >= 0 and y1 < col){
+                res.push_back(matrix[x1][y1]);
+                x1--;
+                y1++;
+            }
+            sum++;
+            if(sum >= row + col) break;
+            
+            //由上到下
+            //起点确定
+            int y2 = (sum < col) ? sum : col - 1;
+            int x2 = sum - y2;
+            while(y2 >= 0 and x2 < row){
+                res.push_back(matrix[x2][y2]);
+                y2--;
+                x2++;
+            }
+            sum++;
+        }
+        return res;
+    }
+};
