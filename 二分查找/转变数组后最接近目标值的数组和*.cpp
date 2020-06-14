@@ -50,3 +50,45 @@ public:
     }
 
 };
+
+
+class Solution {
+public:
+    int cumulate(vector<int>& arr, int val){
+        int ret = 0;
+        for (const int& num: arr) {
+            ret += (num >= val ? val : num);
+        }
+        return ret;
+    }
+
+    int findBestValue(vector<int>& arr, int target) {
+        sort(arr.begin(), arr.end());
+        int len = arr.size();
+        if(target == 0) return 0;
+        float mean = float(target) / float(len);
+        if(arr[0] >= mean){
+            int sum1 = int(mean) * len;
+            int sum2 = (int(mean) + 1) * len;
+            return abs(sum1 - target) <= abs(sum2 - target) ? int(mean) : int(mean) + 1;
+        } 
+
+        int tmp = target;
+        int ret = arr[len-1];
+        for(int i = 0; i < len; ++i){
+            //如果当前值小于平均值，只能寄希望于后面的数
+            if(arr[i] < mean) {
+                mean = float(tmp - arr[i])/float(len - i - 1);
+                tmp = tmp - arr[i];
+            } 
+            else{
+                ret = mean;
+                break;
+            }
+        }
+
+        int sum1 = cumulate(arr, ret);
+        int sum2 = cumulate(arr, ret+1);
+        return abs(sum1 - target) <= abs(sum2 - target) ? ret : ret + 1;
+    }
+};
