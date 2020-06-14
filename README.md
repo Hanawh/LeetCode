@@ -199,5 +199,6 @@ Work Harder and Learn More
 |1221|[Split a String in Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)|Easy|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.cpp)|
 |1248|[Count Number of Nice Subarrays](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%8F%B3%E8%A7%86%E5%9B%BE.cpp)|
 |1277|[Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/%E7%BB%9F%E8%AE%A1%E5%85%A8%E4%B8%BA%201%20%E7%9A%84%E6%AD%A3%E6%96%B9%E5%BD%A2%E5%AD%90%E7%9F%A9%E9%98%B5.cpp)|
+|1300|[Sum of Mutated Array Closest to Target](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/)|Medium|[c++](https://github.com/Hanawh/LeetCode/blob/master/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/%E8%BD%AC%E5%8F%98%E6%95%B0%E7%BB%84%E5%90%8E%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9B%AE%E6%A0%87%E5%80%BC%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C*.cpp)|
 
 
