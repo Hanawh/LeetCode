@@ -1,0 +1,46 @@
+class Trie{
+public:
+    bool isEnd;
+    Trie* next[26] = {nullptr};
+    Trie(){
+        isEnd = false;
+    }
+
+    void insert(string word){
+        Trie* node = this;
+        for (int i = word.length() - 1; i >= 0; --i){ //倒序
+            char c = word[i];
+            if (node->next[c-'a'] == nullptr) {
+                node->next[c-'a'] = new Trie();
+            }
+            node = node->next[c-'a'];
+        }
+        node->isEnd = true;
+    }
+};
+class Solution {
+public:
+
+    int respace(vector<string>& dictionary, string sentence) {
+        int len = sentence.size();
+        vector<int> dp(len+1); //前i个字符最少识别的单词数
+        Trie* t = new Trie();
+        for (auto& word: dictionary) {
+            t->insert(word);
+        }
+
+        for (int i = 1; i <= len; ++i){
+            dp[i] = dp[i-1] + 1;
+            Trie* cur = t;
+            for(int j = i-1; j >= 0; --j){
+                char c = sentence[j];
+                if(cur->next[c-'a'] == nullptr) break;
+                if(cur->next[c-'a']->isEnd){
+                    dp[i] = min(dp[i], dp[j]);
+                }
+                cur = cur->next[c-'a'];
+            }
+        }
+        return dp[len];
+    }
+};
