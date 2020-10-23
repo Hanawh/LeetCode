@@ -49,3 +49,60 @@ public:
         
     }
 };
+
+//method 2
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    bool isPalindrome(ListNode* head) {
+        //寻找中点
+        //反转链表
+        //逐个遍历
+        if(head == nullptr or head->next == nullptr) return true;
+        ListNode* mid = findmid(head);
+        ListNode* temp = mid->next;
+        mid->next = nullptr;
+        temp = invert(temp);
+        return isSame(head, temp);
+    }
+
+    ListNode* findmid(ListNode* head){
+        // 偶数 1234 返回2
+        // 奇数 123 返回2
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast->next != nullptr and fast->next->next != nullptr){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
+
+    ListNode* invert(ListNode* head){
+        ListNode* pre = nullptr;
+        ListNode* cur = head;
+        while(cur!=nullptr){
+            ListNode* tmp = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = tmp;
+        }
+        return pre;
+    }
+
+    bool isSame(ListNode* head1, ListNode* head2){ //head1 >= head2
+        while(head1 != nullptr and head2 != nullptr){
+            if(head1->val != head2->val) return false;
+            head1 = head1->next;
+            head2 = head2->next;
+        }
+        return true;
+    }
+};
