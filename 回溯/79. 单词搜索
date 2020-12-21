@@ -1,0 +1,39 @@
+class Solution {
+public:
+    int dir[4][2] = {{1,0}, {-1,0}, {0,-1}, {0,1}};
+    bool exist(vector<vector<char>>& board, string word) {
+        int row = board.size();
+        int col = board[0].size();
+        int first = word[0];
+        bool flag = false;
+        vector<vector<bool>> visit(row, vector<bool>(col));
+        for(int i=0; i<row; ++i){
+            for(int j=0; j<col; ++j){
+                if(board[i][j]==first){
+                    visit[i][j] = true;
+                    flag = dfs(board, i, j, word, 0, visit);
+                    if(flag) return true;
+                    visit[i][j] = false;
+                }
+            }
+        }
+        return flag;
+    }
+
+    bool dfs(vector<vector<char>>& board, int i, int j, string& word, int k, vector<vector<bool>>& visit){ //第k个字符
+        if(k==word.size()-1){
+            if(board[i][j]==word[k]) return true;
+            else return false;
+        }
+        for(int l=0; l<4; ++l){
+            int new_i = i + dir[l][0];
+            int new_j = j + dir[l][1];
+            if(new_i>=0 and new_i<board.size() and new_j>=0 and new_j<board[0].size() and !visit[new_i][new_j] and k<word.size()-1 and board[new_i][new_j]==word[k+1]){
+                visit[new_i][new_j] = true;
+                if(dfs(board, new_i, new_j, word, k+1, visit)) return true;
+                visit[new_i][new_j] = false;
+            }
+        }
+        return false;
+    }
+};
